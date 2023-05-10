@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap');
+*{box-sizing:border-box;}
+html,body,h1,h2,h3,h4,h5,h6,/* h */
+p,blockquote,ul,ol,li,dl,dt,dd,address,video,/* block */
+strong,s,del,em,sub,sup,q,code,img,a, /* inline */
+table,tr,th,td,thead,tbody,tfoot,/* table */
+form,fieldset,legend,input,button,label,textarea,select,option/* form */
+header,main,footer,section,article,aside,nav,figure,figcaption,/* 시멘틱태그 */
+div,span/* 그룹태그 */
+{
+    margin:0; padding:0;
+    font-size:1.0rem;
+    font-weight:normal;
+    font-style:normal;
+    line-height:1.0;
+    list-style:none;
+    font-family: 'Open Sans','Montserrat','Noto Sans KR', sans-serif, "Font Awesome 5 Free","Font Awesome 5 Brands";
+    /* font-family: 'nanum gothic',"Font Awesome 5 Free","Font Awesome 5 Brands", sans-serif; */
+    /* font-family: 'Nanum Gothic', sans-serif; */
+}
+a {text-decoration:none; color:#000;}
+table,tr,th,td {border-collapse:collapse;}
+button {cursor:pointer; border:none; background:none;}
+.skip {display:none;}
+.awesome::after,
+.awesome::before {font-weight:600;}
+fieldset {border: 0;}
+legend {display: none;}
+.lefticon::after, .lefticon::before 
+{font-weight: 600; display: inline; content: '\f053';}
+.homeicon::before 
+{font-weight: 600; display: inline; content: '\f015';}
+
+

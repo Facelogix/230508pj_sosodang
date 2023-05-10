@@ -7,9 +7,188 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>제주수재 | 소소당양갱</title>
-    
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/icon/favicon.png" type="image/x-icon">
+    <link rel="icon" href="./images/icon/favicon.png" type="image/x-icon">
+    <!-- scrollTriger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js" integrity="sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- swiper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js" integrity="sha512-hJrV+LKHbu+Hxkn/+ZwGOCMUkap0ZfjJbca9WT38z69+MYmRzMlvUd401TOs1b4byAm4fGDESpEcCbG2A6cibQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.css" integrity="sha512-0x5peylECh6ad58xDrjrNZL87Zhg9rdda76yOOHrfGr41VSEwUNmYaK72U/JVScMbSWG1n4Vj35LGmq8ggsqaQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 <body>
-    
+    <!-- header -->
+    <header>
+        <h1><a href="#"><img src="./images/icon/mainlogo01.png" alt="mainlogo"></a></h1>
+        <nav>
+            <ul class="gnb">
+                <li class="gnb_title"><a href="#">about us</a></li>
+                <li class="gnb_title"><a href="#">menu</a></li>
+                <li class="gnb_title"><a href="#">store</a></li>
+                <li class="gnb_title"><a href="#">society</a></li>
+                <li class="gnb_title"><a href="#">what's new</a></li>
+            </ul>
+        </nav>
+        <!-- util_menu -->
+        <div class="util">
+            <div class="util_top">
+                <ul class="top_title">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">문의하기</a></li>
+                    <li><a href="#">채용</a></li>
+                </ul>
+            </div>
+            <div class="util_btm">
+                <ul class="btm_title">
+                    <li><a href="#">신규입점제의</a></li>
+                    <li><a href="#">납품문의</a></li>
+                </ul>
+            </div>
+        </div><!-- e: util_menu -->
+    </header>
+    <!-- sub_menu -->
+    <div class="gnb_sub">
+        <div class="sub_list">
+            <ul class="about listAll">
+                <li class="list_title"><a href="#">Brand</a></li>
+                <li class="list_title"><a href="#">회사소개</a></li>
+            </ul>
+            <ul class="menu listAll">
+                <li class="list_title"><a href="#">양갱세트</a></li>
+                <li class="list_title"><a href="#">양갱단품</a></li>
+                <li class="list_title"><a href="#">댕유자</a></li>
+                <li class="list_title"><a href="#">유자청</a></li>
+                <li class="list_title"><a href="#">PRODUCT</a></li>
+            </ul>
+            <ul class="store listAll">
+                <li class="list_title"><a href="#">매장찾기</a></li>
+            </ul>
+            <ul class="society listAll">
+                <li class="list_title"><a href="#">sosodangs society</a></li>
+                <li class="list_title"><a href="#">회원 등급 혜택</a></li>
+                <li class="list_title"><a href="#">e-Card 선물</a></li>
+                <li class="list_title"><a href="#">모바일 App 안내</a></li>
+                <li class="list_title"><a href="#">제휴혜택 안내</a></li>
+            </ul> 
+            <ul class="new listAll">
+                <li class="list_title"><a href="#">이벤트/새소식</a></li>
+                <li class="list_title"><a href="#">공지사항</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- e:sub -->
+    <!-- e : header -->
+    <main>
+        <div class="main_top">
+            <div class="visual">
+                <div class="visual_bg">
+                    <div class="mainbg01">
+                        <p><img src="./images/silde/bnr01.jpg" alt=""></p>
+                        <div class="content">
+                            <h1>소소당 이야기</h1>
+                            <p>소소당의 마음 small smile sweets</p>
+                            <p>소소당의 양갱은 소소한 즐거움을 함께 나누었으면 하는 바램으로</p>
+                            <p>천천히 정성을 다해 만든 수재 양갱입니다.</p>
+                            <a href="#">detail view</a>
+                        </div>
+                    </div>
+                    <div class="mainbg02">
+                        <p><img src="./images/silde/bnr02.jpg" alt=""></p>
+                        <div class="content">
+                            <h1>생산자 이야기</h1>
+                            <p>양갱은 정성입니다.</p>
+                            <p>그 정성보다 우선되는 것이 바로 선별되 재료입니다.</p>
+                            <p>소소당 수제양갱은 제주산 한천을 기본으로</p>
+                            <p>깐깐하게 선별한 원재료만을 고집하여 만들고 있습니다.</p>
+                            <a href="#">detail view</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="side_link">
+                    <div class="find_link">
+                        <a href="#"><img src="./images/icon/storeIcon.png" alt=""><span>find a store</span></a>
+                    </div>
+                    <div class="notice">
+                        <h1>notice</h1>
+                        <div class="slide_wrap notice_slide">
+                            <div class="slide_container notice_container">
+                                <div class="slide slide1"><a href="#">위치정보 서비스 이용약관 개정 안내</a></div>
+                                <div class="slide slide2"><a href="#">삼성카드 보너스 클럽 혜택 종료</a></div>
+                                <div class="slide slide3"><a href="#">개인 정보처리방침 개정 안내</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_btm">
+            <div class="btm_bg">
+                <div class="line_container">
+                    <ul class="content">
+                        <li class="tab tab01"><a href="#"></a></li>
+                        <li class="tab tab02"><a href="#"></a></li>
+                        <li class="tab tab03"><a href="#"></a></li>
+                        <li class="tab tab04"><a href="#"></a></li>
+                        <li class="tab tab05"><a href="#"></a></li>
+                        <li class="tab tab06"><a href="#"></a></li>
+                        <li class="tab tab07"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="f_left">
+            <div class="f_left_top">
+                <a href="#">개인정보처리방침</a>
+                <a href="#">신규입점안내</a>
+                <a href="#">이용약관</a>
+                <a href="#">위치정보 서비스 이용약관</a>
+                <a href="#">소사이어티카드 이용약관</a>
+                <a href="#">기프트카드 이용약관</a>
+                <a href="#">자주하는 질문</a>
+                <a href="#">사이트맵</a>
+            </div>
+            <div class="f_left_btm">
+                <address>
+                    <p> 제주특별자치도 서귀포시 안덕면 신화역사로 685번길 236 사업자등록번호 :  616-30-17211 사업자정보조회확인
+                    </p>
+                    <p>
+                        통신판매업신고번호 : 2019-안덕-0021 | T :  064-792-1988
+                        E-mail : sosodangs@naver.com
+                    </p>
+                </address>
+                <p class="copy">Copyright ⓒ 소소당  |  Hosting by 보구정제주</p>
+            </div>
+        </div>
+        <div class="f_center">
+            <ul class="quick_link">
+                <li><a href="#"><img src="./images/icon/btmicon01.png" alt=""><span>Mobile App</span></a></li>
+                <li><a href="#"><img src="./images/icon/btmicon02.png" alt=""><span>Special Benefit</span></a></li>
+                <li><a href="#"><img src="./images/icon/btmicon03.png" alt=""><span>e-Shop</span></a></li>
+            </ul>
+        </div>
+        <div class="f_right">
+            <ul class="sns">
+                <li><a href="#"><img src="#" alt="">A</a></li>
+                <li><a href="#"><img src="#" alt="">B</a></li>
+                <li><a href="#"><img src="#" alt="">C</a></li>
+                <li><a href="#"><img src="#" alt="">D</a></li>
+                <li><a href="#"><img src="#" alt="">E</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- e:footer -->
 </body>
 </html>

@@ -1,1 +1,124 @@
-/*# sourceMappingURL=main.css.map */
+body, html {
+  background-color: #eee;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  align-items: center;
+  padding: 20px 40px;
+  z-index: 50;
+}
+header h1 {
+  width: 20%;
+}
+header nav {
+  background-color: aqua;
+  width: 1000px;
+  margin-top: 60px;
+  padding: 0 20px 20px;
+}
+header nav .gnb {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .gnb .gnb_title {
+  width: 20%;
+  text-align: center;
+}
+header nav .gnb .gnb_title > a {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+header .util {
+  background-color: antiquewhite;
+  width: 20%;
+  height: 100%;
+}
+header .util .util_top {
+  height: 50%;
+  background-color: blueviolet;
+}
+header .util .util_top .top_title {
+  display: flex;
+  justify-content: space-between;
+}
+header .util .util_btm {
+  background-color: chartreuse;
+  height: 50%;
+  margin-top: 10px;
+}
+header .util .util_btm .btm_title {
+  display: flex;
+  justify-content: space-between;
+}
+.gnb_sub {
+  display: none;
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 100;
+}
+.gnb_sub .sub_list {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 50px;
+}
+.gnb_sub .sub_list .listAll {
+  width: 100%;
+}
+footer {
+  background-color: #121212;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 30px 0;
+}
+footer .f_left {
+  background-color: blanchedalmond;
+  width: 55%;
+}
+footer .f_left .f_left_top a {
+  color: #fff;
+}
+footer .f_left .f_left_btm address p {
+  color: #fff;
+}
+footer .f_left .f_left_btm .copy {
+  color: #fff;
+}
+footer .f_right {
+  background-color: blue;
+  width: 30%;
+}
+footer .f_right .sns {
+  display: flex;
+}
+footer .f_right .sns li a {
+  color: #eee;
+}
+footer .f_center {
+  background-color: aqua;
+  position: absolute;
+  top: -30px;
+  right: 100px;
+}
+footer .f_center .quick_link {
+  width: 800px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=main.css.map */
